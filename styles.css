@@ -1,0 +1,126 @@
+/* Estilo básico para o corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo do menu */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #007bff;
+    color: white;
+}
+
+/* Estilo para a seção "Sobre Mim" */
+#sobre {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGJ1bmR8ZW58MHx8fHwxNjg0NTI5NzY2&ixlib=rb-4.0.3&q=80&w=1080');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para a seção "Formação" */
+.formacao {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Estilo para a seção "Portfólio" */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a seção "Contato" */
+.contato {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato-form input, .contato-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
